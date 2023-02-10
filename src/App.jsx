@@ -1,13 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Home from './virtual-pages/home'
+import Nav from './components/Nav'
+import NavMobile from './components/NavMobile'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+      <NavMobile />
     </div>
   )
 }
