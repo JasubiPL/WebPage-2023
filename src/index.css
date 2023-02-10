@@ -1,0 +1,23 @@
+:root{
+  --color-yellow: #FFF800;
+  --color-skyblue: #74CBED;
+  --color-strongblue: #000020;
+  --color-green: #539E41;
+  --color-red: #DF1129;
+}
+
+@font-face {
+  font-family: tittle;
+  src: url("./assets/Robota-NonCommercial.otf");
+}
+
+@font-face {
+  font-family: subtittles;
+  src: url("./assets/SpoofTrial-Regular.otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
