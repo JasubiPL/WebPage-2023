@@ -1,0 +1,68 @@
+.complateAppList{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.complateAppList__tittle{
+  width: 100%;
+  margin: 30px 0px;
+
+}
+
+.complateAppList__app{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+
+.complateAppList__app:hover{
+  transform: scale(1.1);
+}
+
+.complateAppList__app img{
+  width: 100px;
+}
+
+.complateAppList__app p{
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*-------- Responsive -----*/
+
+@media screen and (max-width:820px) {
+  .complateAppList__app{
+    width: 100px;
+  }
+  .complateAppList__app img{
+    width: 70px;
+  }
+  
+  .complateAppList__app p{
+    font-size: 21px;
+  }
+  
+}
+
+@media screen and (max-width:450px) {
+  .complateAppList__app{
+    width: 70px;
+  }
+  .complateAppList__app img{
+    width: 60px;
+  }
+  
+  .complateAppList__app p{
+    font-size: 16px;
+  }
+  
+}

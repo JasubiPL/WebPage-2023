@@ -21,6 +21,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  height: 100vh;
+  background-image: url("./img/Background_WebPage.png");
+  background-position: center;
+  background-size: cover;
+}
 
 h1{
   font-family: tittle;
