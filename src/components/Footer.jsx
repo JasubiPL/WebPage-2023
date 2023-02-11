@@ -8,10 +8,10 @@ export default function Footer(){
   return(
     <footer className='footer'>
       <div className='footer__socialNetworks'>
-        <a href=''><img src={facebookIcon} /></a>
-        <a href=''><img src={githubIcon} /></a>
-        <a href=''><img src={linkedinIcon} /></a>
-        <a href=''><img src={twitterIcon} /></a>
+        <a href='https://www.facebook.com/JasubiP'><img src={facebookIcon} /></a>
+        <a href='https://github.com/JasubiPL'><img src={githubIcon} /></a>
+        <a href='https://www.linkedin.com/in/jasubip/'><img src={linkedinIcon} /></a>
+        <a href='https://twitter.com/JasubiP'><img src={twitterIcon} /></a>
       </div>
     </footer>
   )
