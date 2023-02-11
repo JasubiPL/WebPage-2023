@@ -62,4 +62,7 @@
   .fullBlogArticles__articles--grid{
     grid-template-columns: repeat(auto-fill,150px);
   }
+  .fullBlogArticles__frontPage h2{
+    font-size: 24px;
+  }
 }
