@@ -1,12 +1,12 @@
 import '../styles/components/FullBlogArticles.css'
-import { fullBlogArtiles } from '../js/blogArticles'
+import { reflectionBlogArticles } from '../js/blogArticles'
 
-export default function FullBlogArticles(){
+export default function ReflectionBlogArticles(){
   return(
     <section className='fullBlogArticles'>
-      <h1 className='fullBlogArticles__tittle'>TODO</h1>
+      <h1 className='fullBlogArticles__tittle'>REFLEXION</h1>
       <div className='fullBlogArticles__articles--grid'>
-        {fullBlogArtiles.map(article => {
+        {reflectionBlogArticles.map(article => {
           return(
             <article className='fullBlogArticles__article--container'>
               <div className='fullBlogArticles__frontPage'>

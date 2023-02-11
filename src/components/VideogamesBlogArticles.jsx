@@ -1,12 +1,12 @@
 import '../styles/components/FullBlogArticles.css'
-import { fullBlogArtiles } from '../js/blogArticles'
+import { videogamesBlogArticles } from '../js/blogArticles'
 
-export default function FullBlogArticles(){
+export default function VideogamesBlogArticles(){
   return(
     <section className='fullBlogArticles'>
-      <h1 className='fullBlogArticles__tittle'>TODO</h1>
+      <h1 className='fullBlogArticles__tittle'>VIDEOJUEGOS</h1>
       <div className='fullBlogArticles__articles--grid'>
-        {fullBlogArtiles.map(article => {
+        {videogamesBlogArticles.map(article => {
           return(
             <article className='fullBlogArticles__article--container'>
               <div className='fullBlogArticles__frontPage'>
