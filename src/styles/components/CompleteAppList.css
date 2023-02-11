@@ -6,6 +6,7 @@
   justify-content: space-between;
   padding: 20px;
   cursor: pointer;
+  justify-self: center;
 }
 
 .complateAppList__tittle{

@@ -1,6 +1,5 @@
 import '../styles/components/CompleteAppList.css'
 import { appList } from '../js/appList'
-import icon from '../img/icons/react-icon.png'
 
 export default function CompleteAppList(){
   return(
