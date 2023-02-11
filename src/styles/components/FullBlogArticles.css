@@ -22,8 +22,13 @@
   flex-wrap: wrap;
   /* color: yellow; */
   aspect-ratio: 10 / 16;
+  cursor: pointer;
+  transition: .2s;
 }
 
+.fullBlogArticles__article--container:hover{
+  transform: translateY(-50px);
+}
 .fullBlogArticles__frontPage{
   width: 100%;
   display: flex;
