@@ -5,7 +5,7 @@ import Nav from './components/Nav'
 import NavMobile from './components/NavMobile'
 import Footer from './components/Footer'
 import Blog from './virtual-pages/Blog'
-import FullBlogArticles from './components/FullBlogArticles'
+import Contact from './virtual-pages/Contact'
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <NavMobile />
       <Footer />

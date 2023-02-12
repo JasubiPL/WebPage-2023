@@ -18,7 +18,6 @@ export default function Nav(){
       <ul className='nav__list-container'>
         <NavLink to='/' style={({isActive}) => isActive ? activePage : inactive}><li className='nav__link'>Inicio</li></NavLink>
         <NavLink to='/blog' style={({isActive}) => isActive ? activePage : inactive}><li className='nav__link'>Blog</li></NavLink>
-        <NavLink to='/apps' style={({isActive}) => isActive ? activePage : inactive}><li className='nav__link'>Apps</li></NavLink>
         <NavLink to='/contact' style={({isActive}) => isActive ? activePage : inactive}><li className='nav__link'>Contacto</li></NavLink>
       </ul>
     </nav>

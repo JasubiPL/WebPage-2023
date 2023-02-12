@@ -19,7 +19,6 @@ export default function NavMobile(){
       <ul className='navMobile__list-container'>
         <NavLink to='/' style={({isActive}) => isActive ? activeMobilePage : inactive}><li className='navMobile__link'><AiFillHome /></li></NavLink>
         <NavLink to='/blog' style={({isActive}) => isActive ? activeMobilePage : inactive}><li className='navMobile__link'><MdArticle /></li></NavLink>
-        <NavLink to='/apps' style={({isActive}) => isActive ? activeMobilePage : inactive}><li className='navMobile__link'><AiOutlineAppstoreAdd /></li></NavLink>
         <NavLink to='/contact' style={({isActive}) => isActive ? activeMobilePage : inactive}><li className='navMobile__link'><AiFillMessage /></li></NavLink>
       </ul>
     </nav>
