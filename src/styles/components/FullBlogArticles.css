@@ -38,7 +38,6 @@
   /* background-color: aqua; */
   overflow: hidden;
   justify-content: flex-end;
-  padding: 5px 10px;
 }
 
 .fullBlogArticles__frontPage img{
@@ -49,7 +48,11 @@
 }
 
 .fullBlogArticles__frontPage h2{
+  width: 100%;
   z-index: 1;
+  background-color: var(--color-strongblue);
+  padding: 10px;
+  opacity: .9;
 }
 
 .fullBlogArticles__date{

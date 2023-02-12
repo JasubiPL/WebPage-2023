@@ -1,10 +1,15 @@
 import '../styles/virtual-pages/Contact.css'
 import{IoIosSend} from 'react-icons/io'
+import contactHeaderImg from '../img/contact_icon_header.png'
 
 export default function Contact(){
   return(
     <section className='contact'>
       <div className='contact__container'>
+        <div className='contact__header'>
+          <img src={contactHeaderImg} />
+          <h1>¿COMO PUEDO AYUDARTE? </h1>
+        </div>
         <form className='contact__form'>
           <label className='contact__label label1' for='formInputName'>Nombre</label>
           <input id='formInputName' className='contact__input input2' type='text' placeholder='Nombre Completo'/>

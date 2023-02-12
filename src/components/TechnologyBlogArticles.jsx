@@ -1,5 +1,6 @@
 import '../styles/components/FullBlogArticles.css'
 import { technologyBlogArticles } from '../js/blogArticles'
+import { Link } from 'react-router-dom'
 
 export default function TechnologyBlogArticles(){
   return(
@@ -8,6 +9,7 @@ export default function TechnologyBlogArticles(){
       <div className='fullBlogArticles__articles--grid'>
         {technologyBlogArticles.map(article => {
           return(
+            <Link key={article.id} to={`/blog/${article.id}/${article.url}`} >
             <article className='fullBlogArticles__article--container'>
               <div className='fullBlogArticles__frontPage'>
               <h2>{article.tittle}</h2>
@@ -15,6 +17,7 @@ export default function TechnologyBlogArticles(){
               </div>
               <p className='fullBlogArticles__date'>{article.date}</p>
             </article>
+            </Link>
           )
         })}
       </div>

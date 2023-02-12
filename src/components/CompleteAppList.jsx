@@ -4,7 +4,7 @@ import { appList } from '../js/appList'
 export default function CompleteAppList(){
   return(
     <div className='complateAppList'>
-      <h1 className='complateAppList__tittle'>TODO</h1>
+      <h1 className='complateAppList__tittle'>APPS</h1>
       {appList.map(app => { 
       return (
         <article className='complateAppList__app'>

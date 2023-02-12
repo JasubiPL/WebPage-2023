@@ -1,0 +1,39 @@
+.article{
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.article__container{
+  max-width: 900px;
+  padding: 20px;
+}
+
+.article span{
+  color: var(--color-green);
+  font-family: subtittles;
+}
+
+.article__container h1{
+  font-size: 50px;
+  text-align: center;
+  text-transform:uppercase;
+  margin-bottom: 50px;
+}
+
+.article__container p{
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: justify;
+  font-family:'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width:450px) {
+  .article{
+    margin-top: 50px;
+  }
+  .article__container h1{
+    font-size: 24px;
+  }
+}
